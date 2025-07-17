@@ -36,7 +36,7 @@ const CameraCapture = ({ visible, onCapture, onCancel }) => {
 
     // Maintain 1.7:1 aspect ratio crop
     const width = video.videoWidth;
-    const height = width / 1.3;
+    const height = width / 1.7;
 
     canvas.width = width;
     canvas.height = height;
